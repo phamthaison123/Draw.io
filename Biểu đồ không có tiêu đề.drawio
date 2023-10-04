@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-10-04T08:07:01.279Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.6.9" etag="vaLXSHYIvUAqbtfmqDVI" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-04T08:19:10.621Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="UGV9N-DfxxtFu_mYN7tP" version="21.6.9" type="github">
   <diagram name="Trang-1" id="PM6XNOmnN-k0I5oB8XaU">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KfR_zgw6pOTlRiycZqpf-20" value="Container" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KfR_zgw6pOTlRiycZqpf-23" value="Container" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KfR_zgw6pOTlRiycZqpf-24" value="Container" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KfR_zgw6pOTlRiycZqpf-25" value="vccloud-dns-log-exporter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="278" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KfR_zgw6pOTlRiycZqpf-26" value="vccloud-dns-worker-cluster_v2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="398" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KfR_zgw6pOTlRiycZqpf-27" value="vccloud-dnsap-gdnsd-log" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="518" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KfR_zgw6pOTlRiycZqpf-29" value="Container" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="275" y="10" width="205" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KfR_zgw6pOTlRiycZqpf-30" value="vccloud-dns-log-exporter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KfR_zgw6pOTlRiycZqpf-29">
+          <mxGeometry x="22.5" y="50" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KfR_zgw6pOTlRiycZqpf-31" value="vccloud-dns-worker-cluster_v2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KfR_zgw6pOTlRiycZqpf-29">
+          <mxGeometry x="15" y="100" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KfR_zgw6pOTlRiycZqpf-32" value="vccloud-dnsap-gdnsd-log" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KfR_zgw6pOTlRiycZqpf-29">
+          <mxGeometry x="22.5" y="150" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
